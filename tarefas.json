@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "titulo": "Estudar Python",
+        "descricao": "Criar a primeira estrutura em mem\u00f3ria",
+        "concluida": true
+    },
+    {
+        "id": 2,
+        "titulo": "Configurar Git",
+        "descricao": "Iniciar reposit\u00f3rio do projeto",
+        "concluida": true
+    },
+    {
+        "id": 3,
+        "titulo": "Configurar Git e GitHub",
+        "descricao": "Criar reposit\u00f3rio local, configurar .gitignore e enviar para a nuvem",
+        "concluida": true
+    },
+    {
+        "id": 4,
+        "titulo": "Persist\u00eancia de Dados com JSON",
+        "descricao": "Salvar e carregar tarefas em arquivo local tarefas.json",
+        "concluida": true
+    }
+]
