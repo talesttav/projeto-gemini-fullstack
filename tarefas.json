@@ -19,8 +19,26 @@
     },
     {
         "id": 4,
-        "titulo": "Persistência de Dados com JSON", 
+        "titulo": "Persistência de Dados com JSON",
         "descricao": "Salvar e carregar tarefas em arquivo local tarefas.json",
         "concluida": true
+    },
+    {
+        "id": 5,
+        "titulo": "Criar Menu Interativo no Terminal",
+        "descricao": "Construir interface CLI com while e input para adicionar, editar, remover e concluir tarefas com tratamento de erros",
+        "concluida": false
+    },
+    {
+        "id": 6,
+        "titulo": "Criar Servidor Web com Flask",
+        "descricao": "Instalar o Flask no ambiente virtual e colocar o servidor local no ar na porta 5000",
+        "concluida": false
+    },
+    {
+        "id": 7,
+        "titulo": "Criar Rota da API REST para Listar Tarefas",
+        "descricao": "Conectar o servidor Flask ao tarefas.json e retornar os dados no navegador usando jsonify",
+        "concluida": false
     }
 ]

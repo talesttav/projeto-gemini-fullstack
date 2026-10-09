@@ -1,11 +1,13 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import json
 
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>Meu primeiro servidor Web está funcionando!</h1>"
+    with open('tarefas.json', 'r', encoding='utf-8') as arquivo:
+        tarefas = json.load(arquivo)
+    return render_template('index.html', tarefas=tarefas)
 
 @app.route('/tarefas')
 def listar_tarefas():
